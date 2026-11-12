@@ -12,6 +12,10 @@ This offline prototype reads synthetic input and returns a recommendation or dia
 
 Run `make verify` with Make and Python 3 installed. The sample runs through the CLI and its JSON is compared with `expected.json`.
 
+## Business problem
+
+A deployment needs an accountable owner, rollback drill evidence, and sufficient error budget before an operator can approve it.
+
 ## Project walkthrough
 
 ```mermaid

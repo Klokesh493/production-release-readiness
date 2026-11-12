@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Evaluate whether a production release has enough operational evidence to proceed.
+A deployment needs an accountable owner, rollback drill evidence, and sufficient error budget before an operator can approve it.
 
 ## Reproduce the workflow
 

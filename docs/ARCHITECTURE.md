@@ -4,11 +4,14 @@ Evaluate whether a production release has enough operational evidence to proceed
 
 ```mermaid
 flowchart LR
-    N0["example.json"]
-    N1["agent.py"]
-    N2["Check rollback evidence, accountable ownership, and available error budget."]
-    N3["Result for operator review"]
-    N0 --> N1 --> N2 --> N3
+    A["Release evidence JSON"]
+    B["Check rollback drill, ownership, and error budget"]
+    C{"Any required evidence missing?"}
+    D["Hold and list missing checks"]
+    E["Proceed recommendation"]
+    A --> B --> C
+    C -->|Yes| D
+    C -->|No| E
 ```
 
 ## Operational boundaries

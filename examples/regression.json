@@ -1,0 +1,6 @@
+{
+  "rollback_drill": true,
+  "owner": "platform",
+  "slo_budget_remaining": 0.2,
+  "minimum_budget": 0.2
+}

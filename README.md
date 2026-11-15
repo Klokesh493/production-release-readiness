@@ -2,6 +2,8 @@
 
 A deployment needs an accountable owner, rollback drill evidence, and sufficient error budget before an operator can approve it.
 
+[Skills and verification](docs/ENGINEERING_NOTES.md)
+
 ## What I built
 
 I built a release checklist that requires a completed rollback drill, a named owner, and enough remaining error budget. It returns a proceed or hold recommendation with failed checks listed.
